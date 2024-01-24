@@ -7,7 +7,7 @@ const Header = () => {
         settabs(tab)
     }
     return (
-        <div className='overflow-clip'>
+        <div className='overflow-clip' id="account">
             <div className='max-w-[1190px] mx-auto px-3 py-[80px]'>
                 <div className='flex flex-row flex-wrap -mx-3'>
                     <div className='lg:w-6/12 w-full px-3' data-aos="fade-right">
@@ -61,7 +61,7 @@ const Header = () => {
                         <p className=' pt-[25px] sm:pt-[34px] text-[#808080] text-[14px] sm:text-[16px] font-inter tracking-[0.8px] leading-[20px] sm:leading-[28px] max-w-[448px] pb-[40px] sm:pb-[60px]'>Blazing fast web hosting for individuals and businesses of all sizes backed by 24x7x365 Support.</p>
                         <div className="flex gap-[24px]">
                             <button className='text-white font-poppins text-[14px] font-normal leading-[24px] bg-[#B00000] rounded-[8px] p-2 sm:p-3 border hover:bg-transparent hover:text-[#B00000] hover:border-[#b00000] duration-300 border-transparent shadow-[0px_0px_64px_0px_rgba(176,0,0,0.30)]'>Create an Account</button>
-                            <button className='text-black font-poppins text-[14px] leading-[24px] font-normal border border-black rounded-[8px] p-2 sm:p-3 hover:bg-transparent duration-300  hover:text-[#B00000] hover:border-[#b00000]  hover:shadow-[0px_0px_64px_0px_rgba(176,0,0,0.30)]'>Choose your plan</button>
+                            <a href='#plan' className='text-black inline-block font-poppins text-[14px] leading-[24px] font-normal border border-black rounded-[8px] p-2 sm:p-3 hover:bg-transparent duration-300  hover:text-[#B00000] hover:border-[#b00000]  hover:shadow-[0px_0px_64px_0px_rgba(176,0,0,0.30)]'>Choose your plan</a>
                         </div>
                     </div>
                     <div className="lg:w-6/12 w-full px-3 flex items-center justify-center lg:pt-0 pt-8 lg:justify-end"  data-aos="fade-down-left">

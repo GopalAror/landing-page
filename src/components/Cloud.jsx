@@ -8,7 +8,7 @@ import img6 from "../assets/images/cloud-img6.webp";
 
 const Cloud = () => {
     return (
-        <div className=' overflow-clip'>
+        <div className=' overflow-clip' id="service">
             <div className="max-w-[1284px] px-3 mx-auto pb-[75px]">
                 <div className="flex flex-wrap -mx-3 flex-row">
                     <div className=" w-full lg:w-6/12 px-3">

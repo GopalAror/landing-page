@@ -6,7 +6,7 @@ import double from "../assets/images/double-quote.svg";
 import short from "../assets/images/short-quote.svg";
 const Stories = () => {
     return (
-        <div className=' overflow-x-clip'>
+        <div className=' overflow-x-clip' id="news">
             <div className="max-w-[1015px] max-lg:pt-[30px] px-3 mx-auto relative pb-[100px]">
                 <img className=' absolute top-0 md:top-[-7%] max-md:w-[100px]  min-[1125px]:left-[-5%]  left-0' src={double} alt="quot" />
                 <div className="flex flex-row flex-wrap -mx-3">

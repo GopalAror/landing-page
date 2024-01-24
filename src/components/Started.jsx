@@ -10,22 +10,25 @@ const Started = () => {
         setPremium(first)
     }
     return (
-        <div className='overflow-clip'>
+        <div className='overflow-clip' id='about'>
             <div className="max-w-[1097px] pt-[65px] md:pt-[100px] mx-auto px-3 flex justify-center items-center flex-col">
                 <h2 className='text-black text-center font-poppins sm:text-[42px] text-[35px] md:text-[50px] font-semibold leading-[47px] md:leading-[60px] max-w-[650px]'  data-aos="zoom-in">Ready to get started with Lemon Wares?</h2>
                 <p className='text-black text-center font-poppins text-[20px] sm:text-[25px] font-normal pt-[28px] sm:pt-[38px]' data-aos="zoom-in">Choose the package that suits you</p>
-                <div className="flex items-center py-[25px] md:py-[55px] gap-[28px]"  data-aos="zoom-in">
-                    <p className=' text-black font-normal font-poppins text-center text-[20px] sm:text-[25px] leading-[25px]'>Monthly</p>
-                    <div className={`relative w-[93px] h-[50px]  px-[9px] py-[10px] cursor-pointer rounded-[73px] duration-500 ${toggle ? " bg-black" : "bg-[#B00000]"} `} onClick={btn}>
-                        <div className={`bg-white h-[30px] w-[30px] absolute rounded-full duration-500 transition-all ${toggle ? "right-[10%]" : "right-[60%]"}`}></div>
+                <div className='flex items-center pl-[77px]'>
+                    <div className="flex items-center py-[25px] md:py-[55px] gap-[28px]"  data-aos="zoom-in">
+                        <p className=' text-black font-normal font-poppins text-center text-[20px] sm:text-[25px] leading-[25px]'>Monthly</p>
+                        <div className={`relative w-[93px] h-[50px]  px-[9px] py-[10px] cursor-pointer rounded-[73px] duration-500 ${toggle ? " bg-black" : "bg-[#B00000]"} `} onClick={btn}>
+                            <div className={`bg-white h-[30px] w-[30px] absolute rounded-full duration-500 transition-all ${toggle ? "right-[10%]" : "right-[60%]"}`}></div>
+                        </div>
+                        <p className='text-black font-normal font-poppins text-center text-[20px] sm:text-[25px] leading-[25px]'>Yearly</p>
                     </div>
-                    <p className='text-black font-normal font-poppins text-center text-[20px] sm:text-[25px] leading-[25px]'>Yearly</p>
+                    <button className='text-black text-center font-poppins font-medium text-[10px] ml-[17px] bg-[#FFE87A] rounded-[8px] py-[7px] px-2'>20%  discount</button>
                 </div>
                 <div className="flex items-center border-b-[4px] max-w-[856px] w-full">
                     <p className={`text-black font-poppins text-[30px] font-semibold leading-[40px] cursor-pointer text-center relative w-1/2 ${Premium === "firstone" ? "after:bg-[#B00000] after:w-full after:h-1 after:absolute after:bottom-[-4px] after:z-[2] after:left-0" : ""}`} onClick={() => latest("firstone")} data-aos="fade-right">Basic</p>
                     <p className={`text-black font-poppins text-[30px] font-semibold leading-[40px] cursor-pointer text-center relative w-1/2 ${Premium === "firstsecond" ? "after:bg-[#B00000] after:w-full after:h-1 after:absolute after:bottom-[-4px] after:z-[2] after:left-0" : ""}`} onClick={() => latest("firstsecond")} data-aos="fade-left accordion ">Premium</p>
                 </div>
-                <div className="flex pt-[60px] md:pt-[85px] pb-[65px] md:pb-[130px] flex-row flex-wrap -mx-3 w-full">
+                <div className="flex pt-[60px] md:pt-[85px] pb-[65px] md:pb-[130px] flex-row flex-wrap -mx-3 w-full" id='plan'>
                     <div className=" lg:w-4/12 sm:w-6/12 w-full justify-center flex mt-5 px-3">
                         <div className="max-w-[380px] lg:max-w-[299px] pl-[35px] pt-[38px] pb-[48px] border-[1.5px] pr-[28px] border-[#C4C4C4] rounded-[15px] bg-white shadow-[0px_0px_4px_0px_rgba(0,0,0,0.25)_inset] w-full" data-aos="flip-left">
                             <p className='text-black font-poppins text-[20px] sm:text-[28px] font-semibold leading-6'>Starter</p>

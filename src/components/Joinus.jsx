@@ -2,7 +2,7 @@ import React from 'react'
 
 const Joinus = () => {
     return (
-        <div>
+        <div id='contact'>
             <div className="mb-[100px] max-w-[1232px] min-h-[432px] w-full flex flex-col items-center mx-auto px-3 rounded-[16px] justify-center relative bg-[#F7FAFE]">
                 <span className=' absolute top-0 left-[35%]'><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
                     <path d="M40 40L3.49691e-06 40L40 0L40 40Z" fill="#B00000" />
