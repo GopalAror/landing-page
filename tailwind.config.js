@@ -9,6 +9,7 @@ module.exports = {
       'poppins': 'poppins',
       'inter': 'inter'
     },
+    
   },
   plugins: [],
 }

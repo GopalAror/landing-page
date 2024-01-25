@@ -17,3 +17,6 @@ code {
 *{
   scroll-behavior: smooth;
 }
+.webkit:hover{
+  -webkit-text-stroke: 1px white;
+}

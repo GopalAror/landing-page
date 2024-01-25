@@ -16,34 +16,34 @@ const Footer = () => {
                     <div className='col-span-1 lg:col-span-2 mt-4'>
                         <ul className='flex flex-col gap-4 sm:gap-6'>
                             <li className='text-white font-Inter font-bold text-base'>Service</li>
-                            <li><Link href="#" className='text-[#E6E6E6] leading-8 font-Inter font-normal text-base'>Domain</Link></li>
-                            <li><Link href="#" className='text-[#E6E6E6] leading-8 font-Inter font-normal text-base'>Shared Hosting</Link></li>
-                            <li><Link href="#" className='text-[#E6E6E6] leading-8 font-Inter font-normal text-base'>Cloud Hosting</Link></li>
-                            <li><Link href="#" className='text-[#E6E6E6] leading-8 font-Inter font-normal text-base'>Private Hosting</Link></li>
+                            <li><Link href="#" className='text-[#E6E6E6] webkit leading-8 font-Inter font-normal text-base'>Domain</Link></li>
+                            <li><Link href="#" className='text-[#E6E6E6] webkit leading-8 font-Inter font-normal text-base'>Shared Hosting</Link></li>
+                            <li><Link href="#" className='text-[#E6E6E6] webkit leading-8 font-Inter font-normal text-base'>Cloud Hosting</Link></li>
+                            <li><Link href="#" className='text-[#E6E6E6] webkit leading-8 font-Inter font-normal text-base'>Private Hosting</Link></li>
                         </ul>
                     </div>
                     <div className='col-span-1 lg:col-span-2 mt-4'>
                         <ul className='flex flex-col gap-4 sm:gap-6'>
                             <li className='text-white font-Inter font-bold text-base'>Hosting</li>
-                            <li><Link href="#" className='text-[#E6E6E6] leading-8 font-Inter font-normal text-base'>Cheap Hosting</Link></li>
-                            <li><Link href="#" className='text-[#E6E6E6] leading-8 font-Inter font-normal text-base'>Hosting Wordpress</Link></li>
-                            <li><Link href="#" className='text-[#E6E6E6] leading-8 font-Inter font-normal text-base'>Email Hosting</Link></li>
-                            <li><Link href="#" className='text-[#E6E6E6] leading-8 font-Inter font-normal text-base'>Hosting Unlimited</Link></li>
+                            <li><Link href="#" className='text-[#E6E6E6] webkit leading-8 font-Inter font-normal text-base'>Cheap Hosting</Link></li>
+                            <li><Link href="#" className='text-[#E6E6E6] webkit leading-8 font-Inter font-normal text-base'>Hosting Wordpress</Link></li>
+                            <li><Link href="#" className='text-[#E6E6E6] webkit leading-8 font-Inter font-normal text-base'>Email Hosting</Link></li>
+                            <li><Link href="#" className='text-[#E6E6E6] webkit leading-8 font-Inter font-normal text-base'>Hosting Unlimited</Link></li>
                         </ul>
                     </div>
                     <div className='col-span-1 lg:col-span-2 mt-4'>
                         <ul className='flex flex-col gap-4 sm:gap-6'>
                             <li className='text-white font-Inter font-bold text-base'>Company</li>
-                            <li><Link href="#" className='text-[#E6E6E6] leading-8 font-Inter font-normal text-base'>About</Link></li>
-                            <li><Link href="#" className='text-[#E6E6E6] leading-8 font-Inter font-normal text-base'>Career</Link></li>
-                            <li><Link href="#" className='text-[#E6E6E6] leading-8 font-Inter font-normal text-base'>Contact Us</Link></li>
+                            <li><Link href="#" className='text-[#E6E6E6] webkit leading-8 font-Inter font-normal text-base'>About</Link></li>
+                            <li><Link href="#" className='text-[#E6E6E6] webkit leading-8 font-Inter font-normal text-base'>Career</Link></li>
+                            <li><Link href="#" className='text-[#E6E6E6] webkit leading-8 font-Inter font-normal text-base'>Contact Us</Link></li>
                         </ul>
                     </div>
                     <div className='col-span-1 lg:col-span-2 mt-4'>
                         <ul className='flex flex-col gap-4 sm:gap-6'>
                             <li className='text-white font-Inter font-bold text-base'>Help</li>
-                            <li><Link href="#" className='text-[#E6E6E6] leading-8 font-Inter font-normal text-base'>FAQ</Link></li>
-                            <li><Link href="#" className='text-[#E6E6E6] leading-8 font-Inter font-normal text-base'>Help support</Link></li>
+                            <li><Link href="#" className='text-[#E6E6E6] webkit leading-8 font-Inter font-normal text-base'>FAQ</Link></li>
+                            <li><Link href="#" className='text-[#E6E6E6] webkit leading-8 font-Inter font-normal text-base'>Help support</Link></li>
                         </ul>
                     </div>
                 </div>
@@ -52,5 +52,4 @@ const Footer = () => {
         </div>
     )
 }
-
 export default Footer
