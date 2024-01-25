@@ -14,7 +14,7 @@ const Started = () => {
             <div className="max-w-[1097px] pt-[65px] md:pt-[100px] mx-auto px-3 flex justify-center items-center flex-col">
                 <h2 className='text-black text-center font-poppins sm:text-[42px] text-[35px] md:text-[50px] font-semibold leading-[47px] md:leading-[60px] max-w-[650px]'  data-aos="zoom-in">Ready to get started with Lemon Wares?</h2>
                 <p className='text-black text-center font-poppins text-[20px] sm:text-[25px] font-normal pt-[28px] sm:pt-[38px]' data-aos="zoom-in">Choose the package that suits you</p>
-                <div className='flex items-center pl-[77px]'>
+                <div className='flex flex-wrap items-center justify-center sm:pl-[77px]'>
                     <div className="flex items-center py-[25px] md:py-[55px] gap-[28px]"  data-aos="zoom-in">
                         <p className=' text-black font-normal font-poppins text-center text-[20px] sm:text-[25px] leading-[25px]'>Monthly</p>
                         <div className={`relative w-[93px] h-[50px]  px-[9px] py-[10px] cursor-pointer rounded-[73px] duration-500 ${toggle ? " bg-black" : "bg-[#B00000]"} `} onClick={btn}>
@@ -163,7 +163,7 @@ const Started = () => {
                     </div>
                     <div className=" lg:w-4/12 sm:w-6/12 w-full justify-center flex mt-5 px-3">
                         <div className="max-w-[380px] lg:max-w-[299px] pl-[35px] pt-[38px] pb-[48px] border-[1.5px] pr-[28px] border-[#C4C4C4] rounded-[15px] bg-white shadow-[0px_0px_4px_0px_rgba(0,0,0,0.25)_inset] w-full" data-aos="flip-right">
-                            <p className='text-black font-poppins text-[28px] font-semibold leading-6'>Suprem</p>
+                            <p className='text-black font-poppins text-[28px] font-semibold leading-6'>Supreme</p>
                             <p className='text-black pt-[11px] pb-[28px] font-poppins text-[12px] font-normal leading-[18px]'>with all your customers via all conversation channels in one central dashboard.</p>
                             <p className='text-black font-poppins text-[42px] font-semibold leading-[32px] pb-[11px]'>{Premium === "firstone" && <span>$7.00</span>}  {Premium === "firstsecond" && <span>$11.50</span>}</p>
                             <p className='text-black font-poppins text-[14px] font-light leading-[14px] pb-[35px]'>{toggle ? "Per year" : "Per month"}</p>

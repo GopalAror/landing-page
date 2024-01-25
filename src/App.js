@@ -20,7 +20,7 @@ function App() {
     setpreloder(true)
     setTimeout(() => {
       setpreloder(false)
-    }, 3000);
+    }, 3500);
   }, [])
   useEffect(() => {
     AOS.init(
