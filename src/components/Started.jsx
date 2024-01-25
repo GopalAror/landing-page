@@ -25,8 +25,8 @@ const Started = () => {
                     <button className='text-black text-center font-poppins font-medium text-[10px] ml-[17px] bg-[#FFE87A] rounded-[8px] py-[7px] px-2'>20%  discount</button>
                 </div>
                 <div className="flex items-center border-b-[4px] max-w-[856px] w-full">
-                    <p className={`text-black font-poppins text-[30px] font-semibold leading-[40px] cursor-pointer text-center relative w-1/2 ${Premium === "firstone" ? "after:bg-[#B00000] after:w-full after:h-1 after:absolute after:bottom-[-4px] after:z-[2] after:left-0" : ""}`} onClick={() => latest("firstone")} data-aos="fade-right">Basic</p>
-                    <p className={`text-black font-poppins text-[30px] font-semibold leading-[40px] cursor-pointer text-center relative w-1/2 ${Premium === "firstsecond" ? "after:bg-[#B00000] after:w-full after:h-1 after:absolute after:bottom-[-4px] after:z-[2] after:left-0" : ""}`} onClick={() => latest("firstsecond")} data-aos="fade-left accordion ">Premium</p>
+                    <p className={`text-black font-poppins text-[30px] font-semibold leading-[40px] cursor-pointer text-center relative w-1/2 ${Premium === "firstone" ? "after:bg-[#B00000] after:w-full after:h-1 after:absolute after:bottom-[-4px] after:z-[2] after:left-0" : ""}`} onClick={() => latest("firstone")}>Basic</p>
+                    <p className={`text-black font-poppins text-[30px] font-semibold leading-[40px] cursor-pointer text-center relative w-1/2 ${Premium === "firstsecond" ? "after:bg-[#B00000] after:w-full after:h-1 after:absolute after:bottom-[-4px] after:z-[2] after:left-0" : ""}`} onClick={() => latest("firstsecond")}>Premium</p>
                 </div>
                 <div className="flex pt-[60px] md:pt-[85px] pb-[65px] md:pb-[130px] flex-row flex-wrap -mx-3 w-full" id='plan'>
                     <div className=" lg:w-4/12 sm:w-6/12 w-full justify-center flex mt-5 px-3">
