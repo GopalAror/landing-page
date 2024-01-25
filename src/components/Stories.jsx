@@ -8,10 +8,10 @@ const Stories = () => {
     return (
         <div className=' overflow-x-clip' id="news">
             <div className="max-w-[1015px] max-lg:pt-[30px] px-3 mx-auto relative pb-[100px]">
-                <img className=' absolute top-0 md:top-[-7%] max-md:w-[100px]  min-[1125px]:left-[-5%]  left-0' src={double} alt="quot" />
+                <img className=' absolute top-0 md:top-[-7%] max-md:w-[100px]  min-[1125px]:left-[-5%]  left-0 z-0' src={double} alt="quot" />
                 <div className="flex flex-row flex-wrap -mx-3">
                     <div className=" w-full md:w-6/12 px-3 flex flex-col items-center md:items-end">
-                        <div>
+                        <div className=' relative z-[1]'>
                             <h2 className='text-[#18191F] font-inter sm:text-[35px] text-[28px] md:text-[48px] font-extrabold leading-[45px] md:leading-[64px] max-w-[455px]'>Real Stories from Real Customers</h2>
                             <p className='text-[#18191F] font-inter text-[18px] font-normal leading-[32px]'>Get inspired by these stories.</p>
                         </div>
